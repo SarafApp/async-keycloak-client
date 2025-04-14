@@ -1,0 +1,20 @@
+{
+  "name": "saraf/async-keycloak-client",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Saraf\\AsyncKeycloakClient\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Hasan Parasteh",
+      "email": "hasanparasteh@gmail.com"
+    }
+  ],
+  "require": {
+    "saraf/async-request": "^0.0.1",
+    "react/http": "^1",
+    "ext-json": "*"
+  }
+}
