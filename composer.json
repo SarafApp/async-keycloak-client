@@ -13,7 +13,7 @@
     }
   ],
   "require": {
-    "saraf/async-request": "^0.0.1",
+    "saraf/async-request": "dev-main",
     "react/http": "^1",
     "ext-json": "*"
   }
