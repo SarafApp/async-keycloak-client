@@ -50,7 +50,6 @@ class OAuth
             'client_secret' => $this->configurations->getClientSecret(),
             'redirect_uri' => $this->configurations->getRedirectURL(),
         ]);
-        echo $body . PHP_EOL;
         return $this->http->post($this->configurations->getTokenEndpoint(), $body, [
             'Content-Type' => 'application/x-www-form-urlencoded',
         ])->then(function ($result) {
